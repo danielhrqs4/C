@@ -1,4 +1,4 @@
-# C
+# ITP - Laços
 1.Soma dos dígitos
 Escreva um programa que lê um número inteiro n e imprime a soma dos dígitos desse número.
 ***

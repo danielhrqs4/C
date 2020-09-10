@@ -26,7 +26,7 @@ int main(){
     }
     else{
         if(op == 'l'){
-            printf("Escolha a operação Lógica (a, x, o):\n");
+            printf("Escolha a operação Lógica(a, x, o):\n");
             scanf(" %c",&opl);
             switch (opl){
             case 'a':

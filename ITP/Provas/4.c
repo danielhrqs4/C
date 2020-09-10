@@ -8,7 +8,7 @@ int main(){
     else{
         xi = (c1-c2)/(m2-m1);
         yi = (m1 * xi) +c1;
-        printf("Interseção Pi = (%.1f,%.1f)",xi,yi);
+        printf("Interseção Pi = (%.1f, %.1f)",xi,yi);
 
     }
     

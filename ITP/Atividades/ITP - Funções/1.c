@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(void) {
-int x,p,clonex,i=0,
+int x,p,clonex,i=0;
 int aux =10,digitos=0;
 
 scanf("%d %d",&x,&p);
@@ -19,17 +19,18 @@ while(1){
     }
     
 }
-
+//calculo o primeiro divisor para eliminar as casas decimais
 for(int i = 0 ; i < digitos-2 ; i++){
     aux = aux * 10 ;
 }
-
+//elimino as casas decimais até a posição requerida
 for(int  i = 0 ; i < digitos - p - 1 ; i++){
-    clonex = clonex % aux ;
+    x = x % aux ;
     aux /= 10;
 }
-clonex /= aux;
 
-printf("%d",clonex);
+x /= aux;
 
+printf("O digito na posicao solicitada e %d",x);
 
+}

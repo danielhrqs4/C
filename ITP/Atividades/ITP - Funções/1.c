@@ -20,6 +20,10 @@ while(1){
     
 }
 //calculo o primeiro divisor para eliminar as casas decimais
+if(digitos == 1 ){
+  printf("O digito na posicao solicitada e %d",x);
+}
+else{
 for(int i = 0 ; i < digitos-2 ; i++){
     aux = aux * 10 ;
 }
@@ -32,5 +36,6 @@ for(int  i = 0 ; i < digitos - p - 1 ; i++){
 x /= aux;
 
 printf("O digito na posicao solicitada e %d",x);
+}
 
 }

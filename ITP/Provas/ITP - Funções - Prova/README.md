@@ -30,10 +30,10 @@ Fonte: https://www.urionlinejudge.com.br/repository/UOJ_1253.html
 
 Diz-se que uma tripla de inteiros positivos (x, y, z) é uma tripla pitagórica se é possível existir um triângulo retângulo que tenha x, y e z como lados, independentemente da ordem em que os inteiros figurem na tripla. Por exemplos, (3, 4, 5), (6, 8, 10) e (5, 13, 12) são triplas pitagóricas, pois 52 = 32 + 42, 102 = 62 + 82 e 132 = 52 + 122. No entanto, a tripla (6, 8, 10) é apenas a tripla (3, 4, 5) multiplicada por 2, e, por isso, dizemos que (6, 8, 10) não é uma tripla pitagórica primitiva. Um tripla pitagórica (x, y, z) é dita primitiva se mdc(x, y, z) = 1. Euclides mostrou no século III a.C. que existem infinitas triplas pitagóricas primitivas.
 
-Entrada
+<br>Entrada<br>
 Cada linha da entrada é formada por 3 inteiros, x, y e z (1 ≤ x, y, z ≤ 104), separados entre si por um espaço em branco e fornecidos não necessariamente em ordem alguma, terminando em EOF.
 
-Saída
+<br>Saída<br>
 Imprima para cada linha da entrada a linha “tripla pitagorica primitiva” (sem as aspas) se os inteiros dados formam uma tripla pitagórica primitiva, “tripla pitagorica” se os inteiros dados formam uma tripla pitagórica não-primitiva, ou “tripla” se não formam uma tripla pitagórica.
 
 

@@ -1,6 +1,6 @@
 1 - <br>Dígito na posição <br>
 Implemente uma função que receba como entrada dois números inteiros
-xxx​ e ppp. A função a ser implementada deve retornar o dígito na posição ppp​ do número xxx​, considerando que a posição
+x e p. A função a ser implementada deve retornar o dígito na posição p do número x, considerando que a posição
 0 é o primeiro dígito à direita do número xxx​.
 Implemente também a função main, que deve ler do usuário dois números inteiros, denotando o número de entrada e uma posição de interesse. A função main deve realizar uma chamada à função implementada passando como parâmetros os números lidos e imprimir na tela uma mensagem informando qual o dígito do número na posição solicitada.
 ***
